@@ -39,7 +39,7 @@ interface Todo {
   `]
 })
 export class App implements OnInit {
-  private api = 'http://localhost:9090';
+  private api = '/api';
 
   todos: Todo[] = [];
   todoName = '';
